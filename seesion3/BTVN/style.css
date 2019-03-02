@@ -1,0 +1,43 @@
+#container{
+	color: red;
+	height: 800px;
+	width: 800px;
+	text-align: center;
+	border: 3px solid red;
+}
+#header {
+	color: violet;
+	height: 100px;
+	width: 750px;
+	border: 3px solid red;
+	margin: auto;
+	margin-top: 20px;
+	line-height: 100px;
+}
+#menu{
+	color: violet;
+	height: 50px;
+	width: 750px;
+	border: 3px solid red;
+	margin: auto;
+	margin-top: 10px;
+	line-height: 50px;
+}
+#content{
+	color: violet;
+	height: 500px;
+	width: 750px;
+	border: 3px solid red;
+	margin: auto;
+	margin-top: 10px;
+	line-height: 500px;
+}
+#footer{
+	color: violet;
+	height: 50px;
+	width: 750px;
+	border: 3px solid red;
+	margin: auto;
+	margin-top: 10px;
+	line-height: 50px;
+}
