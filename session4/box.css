@@ -1,0 +1,30 @@
+#box1{
+	border: 1px dashed green;
+	height: 300px;
+	width: 500px;
+}
+#box2{
+	border: 1px solid red;
+	height: 250px;
+	width: 400px;
+	margin: auto;
+	margin-top: 25px;
+}
+#box21{
+	border: 1px dashed red;
+	height: 100px;
+	width: 350px;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 100px;
+}
+#box22{
+	border: 1px dashed red;
+	height: 100px;
+	width: 350px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 100px;
+}
