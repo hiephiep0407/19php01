@@ -1,9 +1,15 @@
 #session{
-	height: 1000px;
+	margin: auto;
+	height: 670px;
+	width: 800px;
+	border: 5px solid green;
+	border-radius: 20px;
+	padding: 10px;
+	box-shadow: 10px 10px 6px;
+	background-color: white;
 }
 #header{
-	margin-top: 10px;
-	height: 200px;
+	height: auto;
 }
 .logo{
 	float: left;
@@ -27,6 +33,12 @@
 	height: auto;
 	float: left;
 }
+#footer{
+	height: auto;
+}
 .text3{
 	float: right;
+}
+#background{
+	background-color: pink;
 }
