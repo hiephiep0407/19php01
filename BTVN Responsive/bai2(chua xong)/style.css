@@ -1,59 +1,51 @@
+*{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
 #container{
 	margin: auto;
-	height: 800px; 
-	width: 800px;
+	width: 90%;
+	border: 1px solid green;
 }
 #header{
+	border: 1px solid green;
+	background: #3d0099;
+	width: 100%;
 	height: 100px;
-	width: 800px;
-	border: 1px solid red;
-
+}
+.text{
+	font-size: 150%;
+	text-align: left;
+	color: yellow;
+}
+.header-top{
+	width: 100%;
 }
 .header-left{
 	height: 50px;
-	width: 100px;
-	border: 1px solid red;
-	margin-top: 40px;
+	width: 10%;
+	margin-left: 20px;
 	float: left;
+	margin-top: 10px;
+	background: #d1b3ff;
+	line-height: 50px;
 }
 .header-center{
 	height: 50px;
-	width: 550px;
-	border: 1px solid red;
-	margin-top: 40px;
+	width: 65%;
 	margin-left: 20px;
 	float: left;
+	margin-top: 10px;
+	background: #d1b3ff;
+	line-height: 50px;
 }
 .header-right{
 	height: 50px;
-	width: 100px;
-	border: 1px solid red;
-	margin-top: 40px;
-	float: right;
-}
-#hero{
-	height: 200px;
-	width: 600px;
-	border: 1px solid red;
-	
-}
-#Ad{
-	height: 200px;
-	width: 200px;
-	border: 1px solid red;
-	
-}
-#body{
-	height: 400px;
-	width: 800px;
-	border: 1px solid red;
-	
-}
-#slidebar{
-	
-}
-#footer{
-	height: 100px;
-	width: 800px;
-	border: 1px solid red;
+	width: 10%;
+	margin-left: 20px;
+	float: left;
+	margin-top: 10px;
+	background: #d1b3ff;
+	line-height: 50px;
 }

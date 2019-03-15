@@ -1,0 +1,32 @@
+@media screen and (max-width: 720px) {
+	.header-left{
+		width: 20%;
+		margin-left: 10px;
+	}
+	.header-center{
+		width: 50%;
+		margin-left: 10px;
+	}
+	.header-right{
+		width: 20%;
+		margin-left: 10px;	}
+}
+@media screen and (max-width: 480px) {
+	#header{
+		height: 150px;
+		width: 100%;
+	}
+	.header-left{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.header-center{
+		width: 45%;
+		margin-left: 0px;
+	}
+	.header-right{
+		width: 45%;
+		float: right;
+		margin-left: 0px;
+	}	
+}
