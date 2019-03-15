@@ -1,0 +1,59 @@
+#container{
+	margin: auto;
+	height: 800px; 
+	width: 800px;
+}
+#header{
+	height: 100px;
+	width: 800px;
+	border: 1px solid red;
+
+}
+.header-left{
+	height: 50px;
+	width: 100px;
+	border: 1px solid red;
+	margin-top: 40px;
+	float: left;
+}
+.header-center{
+	height: 50px;
+	width: 550px;
+	border: 1px solid red;
+	margin-top: 40px;
+	margin-left: 20px;
+	float: left;
+}
+.header-right{
+	height: 50px;
+	width: 100px;
+	border: 1px solid red;
+	margin-top: 40px;
+	float: right;
+}
+#hero{
+	height: 200px;
+	width: 600px;
+	border: 1px solid red;
+	
+}
+#Ad{
+	height: 200px;
+	width: 200px;
+	border: 1px solid red;
+	
+}
+#body{
+	height: 400px;
+	width: 800px;
+	border: 1px solid red;
+	
+}
+#slidebar{
+	
+}
+#footer{
+	height: 100px;
+	width: 800px;
+	border: 1px solid red;
+}

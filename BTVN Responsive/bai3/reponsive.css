@@ -1,0 +1,101 @@
+@media screen and (max-width: 1024px) {
+	#menu {
+		width: 1024px;
+	}
+	#header {
+		width: 1024px;
+	}
+	#content{
+		width: 1024px;
+	}
+	.article1{
+		height: 300px;
+		width: 250px;
+		float: left;
+		margin-right: 5px;
+	}
+	.article2{
+		height: 300px;
+		width: 250px;
+		float: left;
+		margin-right: 5px;
+	}
+	.article3{
+		height: 300px;
+		width: 250px;
+		float: left;
+		margin-top: 0px;
+		margin-right: 5px;
+	}
+	.article4{
+		height: 300px;
+		width: 250px;
+		float: left;
+		margin-top: 0px;
+		margin-right: 5px;
+	}
+	#footer{
+		width: 1024px;
+	}
+}
+@media screen and (max-width: 480px) {
+	#menu {
+		width: 480px;
+	}
+	.link1{
+		height: 50px;
+		width: 480px;
+		float: left;
+	}
+	.link2{
+		height: 50px;
+		width: 480px;
+		float: left;
+		margin-left: 0px;
+	}
+	.link3{
+		height: 50px;
+		width: 480px;
+		float: left;
+		margin-left: 0px;
+	}
+	.link4{
+		height: 50px;
+		width: 480px;
+		float: left;
+		margin-left: 0px;
+	}
+	#header {
+		width: 480px;
+		height: 200px;
+		float: left;
+		margin-top: 0px;
+	}
+	#content{
+		width: 480px;
+	}
+	.article1{
+		height: 70px;
+		width: 480px;
+		float: left;
+	}
+	.article2{
+		height: 70px;
+		width: 480px;
+		float: left;
+	}
+	.article3{
+		height: 70px;
+		width: 480px;
+		float: left;
+	}
+	.article4{
+		height: 70px;
+		width: 480px;
+		float: left;
+	}
+	#footer{
+		width: 480px;
+		float: left;
+	}
+}
