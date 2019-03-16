@@ -49,3 +49,100 @@
 	background: #d1b3ff;
 	line-height: 50px;
 }
+#hero{
+	border: 1px solid green;
+	background: #3d0099;
+	width: 70%;
+	float: left;
+	height: 190px;
+	margin-top: 20px;
+}
+.text{
+	font-size: 150%;
+	text-align: left;
+	color: yellow;
+}
+.hero-left{
+	height: 120px;
+	width: 45%;
+	margin-left: 20px;
+	float: left;
+	margin-top: 10px;
+	background: #d1b3ff;
+	line-height: 50px;
+}
+.hero-center{
+	height: 120px;
+	width: 45%;
+	margin-left: 20px;
+	float: left;
+	margin-top: 10px;
+	background: #d1b3ff;
+	line-height: 50px;
+}
+#Ad{
+	float: right;
+	height: 190px;
+	width: 20%;
+	border: 1px solid green;
+	background: #3d0099;
+	margin-top: 20px;
+	line-height: 190px;
+	font-size: 50px;
+	}
+#body{
+	border: 1px solid green;
+	background: #3d0099;
+	width: 70%;
+	float: left;
+	height: 190px;
+	margin-top: 20px;
+}
+.text{
+	font-size: 150%;
+	text-align: left;
+	color: yellow;
+}
+.body-left{
+	height: 120px;
+	width: 45%;
+	margin-left: 20px;
+	float: left;
+	margin-top: 10px;
+	background: #d1b3ff;
+	line-height: 50px;
+}
+.body-center{
+	height: 120px;
+	width: 45%;
+	margin-left: 20px;
+	float: left;
+	margin-top: 10px;
+	background: #d1b3ff;
+	line-height: 50px;
+}
+#slidebar{
+	border: 1px solid green;
+	background: #3d0099;
+	width: 20%;
+	float: right;
+	height: 190px;
+	margin-top: 20px;
+}
+.slide{
+	height: 140px;
+	width: 90%;
+	border: 1px solid green;
+	background: #d1b3ff;
+	line-height: 140px;
+	margin: auto;
+	}
+	#footer{
+	border: 1px solid green;
+	background: #3d0099;
+	width: 100%;
+	float: left;
+	height: 70px;
+	margin-top: 20px;
+	line-height: 70px;
+}
