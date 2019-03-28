@@ -1,0 +1,52 @@
+#full ul{
+	list-style-type: none;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+#full ul li{
+	float: left;
+	border: 2px solid blue;
+	margin-bottom: 5px;
+}
+#full ul li a{
+	text-align: center;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	width: 200px;
+	padding: 1px;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: blue;
+	color: white;
+	border: 2px solid white;
+}
+#full ul ul li{
+	background-color: green;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	border: 2px solid red;
+	color: white;
+
+}
+#full ul li a:hover{
+	color: yellow;
+}
+#full ul ul{
+	display: none;
+	position: absolute;
+}
+#full ul ul li{
+	float: none;
+	width: 150px;
+}
+#full ul li:hover >ul{
+	display: block;
+}
+#full ul ul li li{
+	display: block
+	top: 0px;
+	margin-left:110px;
+	width: 150px;
+}
