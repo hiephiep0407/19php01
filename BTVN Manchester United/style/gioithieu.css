@@ -1,0 +1,247 @@
+#container{
+	width: 100%;
+	margin: auto;
+}
+#header{
+	width: 100%;
+	height: 120px;
+	background-color: #cc0000;
+}
+.logo{
+	width: 10%;
+	height: 120px;
+	float: left;
+}
+.logo img{
+	width: 60%;
+	height: 100px;
+	margin: 10px 10px auto 40px;
+}
+.banner{
+	width: 70%;
+	height: 120px;
+	float: left;
+}
+h1{
+	color: white;
+  	font: inherit;
+    font-size: 200%;
+    line-height: 80px;
+}
+.info{
+	width: 20%;
+	height: 120px;
+	float: left;
+}
+.info ul li{
+	text-decoration: none;
+	list-style-type: none;
+	color: white;
+	font-size: 130%;
+	margin-left: 30px;
+	line-height: 150px;
+	float: left;
+}
+.info ul li:hover{
+	color: yellow;
+}
+#menu{
+	width: 100%;
+	height: 40px;
+	background: black;
+	float: left;
+}
+.menu-left{
+	width: 75%;
+	height: 40px;
+	float: left;
+}
+.menu-left ul li{
+	text-decoration: none;
+	list-style-type: none;
+	color: white;
+	margin-right: 30px;
+	line-height: 10px;
+	font-size: 110%;
+	float: left;
+}
+.menu-left ul li:hover{
+	color: red;
+}
+.menu-right{
+	width: 25%;
+	height: 40px;
+	float: left;
+	text-align: center;
+}
+.menu-right img{
+	width: 10%;
+	height: 30px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+#gioithieu{
+	width: 100%;
+	float: left;
+}
+.gioithieu-left{
+	width: 75%;
+	float: left;
+	text-align: center;
+}
+.gioithieu-left p{
+	font-size: 18px;
+}
+.gioithieu-left img{
+	width: 85%;
+	height: 640px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.gioithieu-right1{
+	width: 22%;
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+	border: 1px solid black;
+	background: #e6e6e6;
+}
+.gioithieu-right1 img{
+	width: 75%;
+	height: 250px;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.gioithieu-right1 p{
+	text-indent: 5px;
+}
+.gioithieu-right2{
+	width: 22%;
+	float: left;
+	margin-top: 100px;
+	margin-left: 50px;
+	border: 1px solid black;
+	background: #e6e6e6;
+}
+.gioithieu-right2 img{
+	width: 100%;
+	height: 350px;
+	margin-top: 10px;
+}
+.gioithieu-right2 p{
+	text-indent: 5px;
+}
+.gioithieu-right3{
+	width: 22%;
+	float: left;
+	margin-top: 100px;
+	margin-left: 50px;
+	border: 1px solid black;
+	background: #e6e6e6;
+}
+.gioithieu-right3 img{
+	width: 100%;
+	height: 350px;
+	margin-top: 10px;
+}
+.gioithieu-right3 p{
+	text-indent: 5px;
+}
+.gioithieu-right4{
+	width: 22%;
+	float: left;
+	margin-top: 100px;
+	margin-left: 50px;
+	border: 1px solid black;
+	background: #e6e6e6;
+}
+.gioithieu-right4 img{
+	width: 100%;
+	height: 350px;
+	margin-top: 10px;
+}
+.gioithieu-right4 p{
+	text-indent: 5px;
+}
+#footer{
+	width: 100%;
+	background: #2a2a2a;
+	height: 100px;
+	float: left;
+}
+.link img{
+	height: 70px;
+	margin-top: 20px;
+	margin-left: 30px;
+	float: left;
+}
+#top-tintuc{
+	text-align: center;	
+	margin-bottom: 100px;
+}
+#main-tintuc{
+	margin: auto;
+	width: 90%;
+}
+.text-top{
+	width: 100%;
+	height: 150px;
+	line-height: 50px;
+	text-align: center;
+	background: #231F20;
+	float: left;
+}
+#left-tintuc{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 40%;
+	float: left;
+}
+#left-tintuc img{
+	margin-bottom: 100px;
+}
+#right-tintuc{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 55%;
+	float: left;
+}
+.tieude1{
+	text-align: center;
+	border: 1px solid red;
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+}
+.noidung1{
+	border: 1px solid red;
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px;
+}
+.tieude2{
+	text-align: center;
+	border: 1px solid red;
+	width: 100%;
+	padding: 10px;
+	margin-top: 115px;
+}
+.noidung2{
+	border: 1px solid red;
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px;
+}
+.tieude3{
+	text-align: center;
+	border: 1px solid red;
+	width: 100%;
+	padding: 10px;
+	margin-top: 115px;
+}
+.noidung3{
+	border: 1px solid red;
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px;
+}
