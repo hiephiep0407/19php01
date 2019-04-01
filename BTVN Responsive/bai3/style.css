@@ -1,13 +1,12 @@
-*{
-	text-align: center;
-	padding: 0;
-	margin: 0;
-}
 #container{
-	width: 90%;
-	margin: 0 auto;
+	height: 720px;
+	width: 1280px;
+	margin: auto;
 }
 #menu{
+	height: 30px;
+	width: 1280px;
+	text-align: center;
 	line-height: 30px;
 }
 .link1{
@@ -39,17 +38,17 @@
 }
 #header{
 	height: 300px;
-	width: 90%;
+	width: 1280px;
 	background: #3779ff;
 	border-radius: 30px;
 	margin-top: 10px;
 	text-align: right;
 	font-size: 50px;
-	float: left;
 }
 #content{
 	margin-top: 20px;
 	height: 300px;
+	width: 1280px;
 	text-align: right;
 	font-size: 50px;
 }
@@ -64,7 +63,7 @@
 	height: 150px;
 	width: 600px;
 	background: #3779ff;
-	float: left;
+	float: right;
 	border-radius: 10px;
 	}
 .article3{
@@ -79,17 +78,16 @@
 	height: 150px;
 	width: 600px;
 	background: #3779ff;
-	float: left;
+	float: right;
 	margin-top: 10px;
 	border-radius: 10px;
 	}
 #footer{
 	height: 30px;
-	width: 90%;
+	width: 1280px;
 	background: #3779ff;
 	border-radius: 10px;
 	margin-top: 20px;
 	text-align: center;
 	font-size: 160%;
-	float: left;
 }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bai 2</title>
+	<link rel="stylesheet" type="text/css" href="intro.css">
+</head>
+<body>
+	<!-- javascript co the thay doi noi dung html -->
+	<div id="changeContent">Hello</div>
+	<a href="#" onclick="document.getElementById('changeContent').innerHTML ='hello ba ma'">changeContent</a>
+	<!--javascript co the thay the style-->
+	<div id="changeStyle">mystyle</div>
+	<a href="#" onclick="document.getElementById('changeStyle').style.color = 'yellow'"">change color</a>
+		<script type="text/javascript" src="intro.js"></script>
+	<a href="#" onclick="document.getElementById('changeStyle').style.fontSize = '25px'">change Font</a>
+		<script type="text/javascript" src="intro.js"></script>
+
+	<!--javascript co the thay doi thyc tinh doi tuong -->
+	<br>
+		<img src="lukaku.jpg" alt="image" id="changeImage">
+	<br>
+	<a href="#" onclick="document.getElementById('changeImage').src = 'gioithieu1.jpg'">change image</a>
+	<br>
+	<!--co the an 1 doi tuong cua html-->
+		<img src="pog.jpg" alt="image" id="hideImage">
+	<br>
+	<a href="#" onclick="document.getElementById('hideImage').style.display = 'none'">hide img</a>
+	<br>
+	<a href="#" onclick="document.getElementById('hideImage').style.display = 'block'">show img</a>
+
+		<script type="text/javascript" src="intro.js"></script>
+</body>
+</html>
