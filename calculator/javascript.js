@@ -14,19 +14,18 @@ function ketqua() {
 	ketquapheptoan = parseInt(temNumber) + parseInt(number1);
 	document.getElementById("number").value = ketquapheptoan;
 }
-
-
-// switch(tempheptoan){
-// 		case "cong:"
-// 			ketquapheptoan = parseInt(temNumber) + parseInt(number1);
-// 			break;
-// 		case "tru:"
-// 			ketquapheptoan = parseInt(temNumber) - parseInt(number1);
-// 			break;
-// 		case "nhan:"
-// 			ketquapheptoan = parseInt(temNumber) * parseInt(number1);
-// 			break;
-// 		case "chia:"
-// 			ketquapheptoan = parseInt(temNumber) / parseInt(number1);
-// 			break;
-// 	}
+function ketqua() {
+	temNumber = document.getElementById("number").value;
+	ketquapheptoan = parseInt(temNumber) - parseInt(number1);
+	document.getElementById("number").value = ketquapheptoan;
+}
+function ketqua() {
+	temNumber = document.getElementById("number").value;
+	ketquapheptoan = parseInt(temNumber) * parseInt(number1);
+	document.getElementById("number").value = ketquapheptoan;
+}
+function ketqua() {
+	temNumber = document.getElementById("number").value;
+	ketquapheptoan = parseInt(temNumber) / parseInt(number1);
+	document.getElementById("number").value = ketquapheptoan;
+}
