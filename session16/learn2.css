@@ -1,0 +1,17 @@
+#myBox {
+	background-color: #ada;
+	font-size: 10px;
+	height: 400px;
+	width: 400px;
+	}
+
+#myBox2 {
+	background-color: #ada;
+	font-size: 10px;
+	height: 400px;
+	width: 400px;
+	float: right;
+	}
+p{
+	height: 10px;
+}

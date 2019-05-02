@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+<div class="container">
+        
+        <form >
+        	<p>Tên: <input type="text" name="ten" id="ten"></p>
+        	<p>Ngày Sinh <input type="date" name="ngaysinh" id="ngaysinh"></p>
+        	<p>Giới tính: <input type="radio" name="gender" value="male" id="male" checked="checked"> Nam <input type="radio" name="gender" value="female" id="female" > Nữ</p>
+        	<p>Tel: <input type="text" name="tel" id="tel"></p>
+        	<input type="button" name="submit" value="OK" onclick="show()"> 
+
+        </form>
+        <div id="show">
+        	<p id="name"></p>
+        	<p id="date"></p>
+        	<p id="gioitinh"></p>
+        	<p id="sdt"></p>
+        </div>
+
+</div>
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
