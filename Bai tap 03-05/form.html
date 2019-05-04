@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bang Tinh Tien Dien</title>
+</head>
+<body>
+	<div id="container">
+			<form action="#" name="register">
+				<p>Họ tên</p>
+				<input type="text" name="form1" id="form1">
+				<span id="errorName"></span>
+				<p>Địa chỉ</p>
+				<input type="text" name="form2" id="form2">
+				<span id="errorDiaChi"></span>
+				<p>SĐT</p>
+				<input type="text" name="form3" id="form3">
+				<span id="errorSdt"></span>	
+				<p>Ngày đầu kỳ</p>
+				<input type="date" name="form4" id="form4">
+				<span id="errorNgayDauKy"></span>
+				<span id="errorNgayDauKy1"></span>
+				<p>Ngày cuối kỳ</p>
+				<input type="date" name="form5" id="form5">
+				<span id="errorNgayCuoiKy"></span>	
+				<p>Số đầu kỳ</p>
+				<input type="text" name="form6" id="form6">
+				<span id="errorSoDauKy"></span>	
+				<span id="errorSoDauKy1"></span>
+				<p>Số cuối kỳ</p>
+				<input type="text" name="form7" id="form7">
+				<span id="errorSoCuoiKy"></span>
+				<p>Ghi chú</p>
+				<input type="text" name="form8" id="form8">
+			</form>
+		</div>
+		<p><input type="button" name="register" value="Tính" onclick="checkRegister()"></p>
+		<p><input type="button" name="print" value="print" onclick="print()"></p>
+		<div id="registerSuccess"></div>
+		<div id="sum">số chữ điện đã dùng:</div>
+		<div id="abc">số tiền</div>	
+
+		<div id="dislayTen"></div>
+		<div id="dislayDiaChi"></div>
+		<div id="displaySdt"></div>
+		<div id="displayNgayDau"></div>
+		<div id="displayNgayCuoi"></div>
+		<div id="displaySoDau"></div>
+		<div id="displaySoCuoi"></div>
+</div>
+	<script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
