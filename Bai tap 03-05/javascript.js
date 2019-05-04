@@ -73,7 +73,7 @@ function checkRegister() {
 
 	var sum1;
 	if (sum <= 0) {
-		document.getElementById('abc') = 'Không đúng';
+		document.getElementById('abc').innerHTML = "Không đúng";
 	}
 	else if (sum <= 100){
 		var sum1 = sum * 1500;
@@ -84,7 +84,7 @@ function checkRegister() {
 	else if(sum > 300) {
 		var sum1 = 100 * 1500 + 200 * 2000 + (sum - 200) * 3000;
 	}
-	document.getElementById('abc').innerHTML = 'Tiền Là ' + sum1;
+	document.getElementById('abc').innerHTML = "Tiền Là " + sum1;
 }
 
 function print(){
