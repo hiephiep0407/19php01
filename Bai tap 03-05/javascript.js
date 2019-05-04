@@ -69,9 +69,10 @@ function checkRegister() {
 	} else {
 		document.getElementById('registerSuccess').innerHTML = '';
 	}
+	var sum;
+	sum = parseInt(socuoiky) - parseInt(sodauky);
 	document.getElementById('sum').innerHTML = socuoiky - sodauky;
 
-	var sum1;
 	if (sum <= 0) {
 		document.getElementById('abc').innerHTML = "Không đúng";
 	}
