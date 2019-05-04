@@ -96,11 +96,11 @@ function print(){
 	var sodauky = document.getElementById('form6').value;
 	var socuoiky = document.getElementById('form7').value;
 
-	document.getElementById('dislayTen').innerHTML = "Name: " +form1;
-	document.getElementById('dislayDiaChi').innerHTML = "Địa chỉ: " +form2;
-	document.getElementById('displaySdt').innerHTML = "SĐT: " +form3;
-	document.getElementById('displayNgayDau').innerHTML = "Ngày đầu: " +form4;
-	document.getElementById('displayNgayCuoi').innerHTML = "Ngày cuối: " +form5;
-	document.getElementById('displaySoDau').innerHTML = "Số cuối: " +form6;
-	document.getElementById('displaySoCuoi').innerHTML = "Số đầu: " +form7;
+	document.getElementById('dislayTen').innerHTML = "Name: " +name;
+	document.getElementById('dislayDiaChi').innerHTML = "Địa chỉ: " +diachi;
+	document.getElementById('displaySdt').innerHTML = "SĐT: " +sdt;
+	document.getElementById('displayNgayDau').innerHTML = "Ngày đầu: " +ngaydauky;
+	document.getElementById('displayNgayCuoi').innerHTML = "Ngày cuối: " +ngaycuoiky;
+	document.getElementById('displaySoDau').innerHTML = "Số cuối: " +sodauky;
+	document.getElementById('displaySoCuoi').innerHTML = "Số đầu: " +socuoiky;
 }
